@@ -1,0 +1,40 @@
+.carousel-inner .item {
+    -webkit-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    transition-duration: 2s;
+}
+.caption{
+    top: 35%;
+}
+.section{
+    position: relative;
+}
+.overlay{
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   background-color: rgba(0, 0, 0, 0.5);
+   z-index: 2;
+}
+.caro{
+    position: absolute;
+    z-index: 100;
+}
+.section2{
+    display: flex;
+    
+}
+.breadcrumbs {
+  padding: 30px 0 30px 0;
+  background: #f7f7f7;
+  border-bottom: 1px solid #ededed;
+  margin-bottom: 40px;
+}
+.breadcrumbs h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #545454;
+}
